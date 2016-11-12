@@ -25,7 +25,7 @@ int main(int argc, char** argv)
     if (argc < 3)
     {
         printf("Syntax: %s [-base85] [-nocompress] <inputfile> <symbolname>\n", argv[0]);
-        return 0;
+        return 1;
     }
 
     int argn = 1;
@@ -42,8 +42,9 @@ int main(int argc, char** argv)
         }
     }
 
-    binary_to_compressed_c(argv[argn], argv[argn+1], use_base85_encoding, use_compression);
-    return 1;
+    if( !binary_to_compressed_c(argv[argn], argv[argn+1], use_base85_encoding, use_compression) )
+		return 1;
+    return 0;
 }
 
 char Encode85Byte(unsigned int x) 
