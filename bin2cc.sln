@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bin2cc", "bin2cc.vcxproj", "{89B14E07-EAAC-18A4-888B-9415096FE3F4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Tool = Debug|Tool
+		Release|Tool = Release|Tool
+		Profile|Tool = Profile|Tool
+		Final|Tool = Final|Tool
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B14E07-EAAC-18A4-888B-9415096FE3F4}.Debug|Tool.Build.0 = Debug|x64
+		{89B14E07-EAAC-18A4-888B-9415096FE3F4}.Debug|Tool.ActiveCfg = Debug|x64
+		{89B14E07-EAAC-18A4-888B-9415096FE3F4}.Release|Tool.Build.0 = Release|x64
+		{89B14E07-EAAC-18A4-888B-9415096FE3F4}.Release|Tool.ActiveCfg = Release|x64
+		{89B14E07-EAAC-18A4-888B-9415096FE3F4}.Profile|Tool.Build.0 = Profile|x64
+		{89B14E07-EAAC-18A4-888B-9415096FE3F4}.Profile|Tool.ActiveCfg = Profile|x64
+		{89B14E07-EAAC-18A4-888B-9415096FE3F4}.Final|Tool.Build.0 = Final|x64
+		{89B14E07-EAAC-18A4-888B-9415096FE3F4}.Final|Tool.ActiveCfg = Final|x64
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+EndGlobal

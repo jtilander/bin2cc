@@ -1,0 +1,10 @@
+[General]
+Type = ConsoleApplication
+SourceFiles = SourceFiles
+Platform = Tool
+
+[Project]
+OutputFile=bin/$(ProjectName).exe
+
+[Solution]
+Dependencies=
